@@ -1,5 +1,4 @@
-# AlgoProSolving
-알고리즘 공부
+## Algorithm Problems
 
 <table>
     <td align="center">Solved</td>
