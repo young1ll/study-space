@@ -1,4 +1,4 @@
-package baekjoon;
+//package baekjoon;
 //mathBasic
 // 1   2   6   7  15  16
 // 3   5   8  14  17 
