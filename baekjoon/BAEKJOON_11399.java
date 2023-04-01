@@ -1,14 +1,24 @@
-package baekjoon;
-/** ATM - 그리디 알고리즘
-// P_i분
-// 입력 : 첫 줄에 사람의 수 N(1<=N<=1000), 각 사람의 인출 시간(P_i)
-// 5
-// 3 1 4 3 2
-// 출력 : 각 사람이 돈을 인출하는데 필요한 시간의 합의 최솟값
-// 32
-**/
+//package baekjoon;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+
 public class BAEKJOON_11399 {
-    public void main(String[] args) {
-        System.out.println("hello");
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        ArrayList<Integer> arr = new ArrayList<>();
+        int time = 0;
+        int result = 0;
+
+        for(int i=0; i < n; i++) arr.add(sc.nextInt());
+        Collections.sort(arr);
+
+        for(int i=0; i < arr.size(); i++) {
+            time += arr.get(i);
+            result += time;
+        }
+        System.out.println(result);
+        sc.close();
     }
 }
