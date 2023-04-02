@@ -10,7 +10,7 @@ public class BAEKJOON_13305 {
         
     //     for(int i=0; i < r.length; i++) r[i] = sc.nextInt();
     //     for(int i=0; i < c.length; i++) c[i] = sc.nextInt();
-        
+    //     sc.close();    
     //     for(int i=0; i < r.length; i++) {
     //         if(c[i] >= c[i+1]) result += c[i] * r[i];
     //         if(c[i] < c[i+1]) {
@@ -31,6 +31,7 @@ public class BAEKJOON_13305 {
         
     //     for(int i=0; i < r.length; i++) r[i] = sc.nextInt();
     //     for(int i=0; i < c.length; i++) c[i] = sc.nextInt();
+    //     sc.close();
         
     //     for(int i=0; i < r.length; i++) {
     //         if(c[i] < c[i+1]) c[i+1] = c[i];
@@ -50,6 +51,7 @@ public class BAEKJOON_13305 {
         
         for(int i=0; i < r.length; i++) r[i] = sc.nextInt();
         for(int i=0; i < c.length; i++) c[i] = sc.nextInt();
+        sc.close();
         long min = c[0];
         
         for(int i=0; i < r.length; i++) {
