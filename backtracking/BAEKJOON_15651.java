@@ -1,8 +1,7 @@
-//package baekjoon;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
+//N과 M (3)
 public class BAEKJOON_15651 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

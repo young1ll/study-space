@@ -1,5 +1,3 @@
-//package baekjoon;
-
 import java.util.Arrays;
 
 public class BAEKJOON_15596 {

@@ -1,4 +1,4 @@
-//package baekjoon;
+//미해결
 
 import java.util.Scanner;
 
