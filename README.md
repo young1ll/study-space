@@ -1,6 +1,6 @@
 ## 👽 Algorithm Problems
 
-<table>
+<table align="center">
     <td align="center">Github</td>
     <td align="center">Solved</td>
     <tr>
