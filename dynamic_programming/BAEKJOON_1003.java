@@ -1,5 +1,4 @@
 //미해결
-
 import java.util.Scanner;
 
 public class BAEKJOON_1003 {
