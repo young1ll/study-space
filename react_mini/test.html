@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body id="root"></body>
+<script src="https://unpkg.com/react@16.7.0/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="text/babel">
+   const root = document.getElementById('root')
+   const Title = (<h3 id="title" onMouseEnter={() => console.log("Mouse Enter")}>
+      Hello World!
+   </h3>);
+   const btn = (<button style={{backgroundColor: "tomato"}} onClick={() => console.log("you clicked button!")}>
+      Click me!
+   </button>);
+   const box = React.createElement('div', null, [Title, btn]);
+   ReactDOM.render(box, root);
+</script>
+</html>
