@@ -7,8 +7,9 @@ public class BAEKJOON_1139 {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt(); int[] nums = new int[n];
 		for(int i=0; i < n; i++) nums[i] = sc.nextInt();
-
-        System.out.println(calcMaxArea(nums));
+		sc.close();
+		
+      System.out.println(calcMaxArea(nums));
     }//main
     
 	public static double calcMaxArea(int[] nums) {
