@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body id="root">
+   <div id="div1"></div>
+   <div id="div2"></div>
+</body>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7.21.4/babel.min.js"></script>
+<script type="text/babel">
+   const div1 = document.getElementById('div1')
+   const div2 = document.getElementById('div2')
+
+
+   function App1() {
+      const [counter, setCounter] = React.useState(0);
+      //setCounter로 리렌더링
+      const onClick = () => {
+         //이벤트 안에 setCounter 배치
+         //setCounter(counter + 1); //이전 값을 바로 계산하는 방법
+         setCounter((current) => current + 1); //함수를 이용하는 방법
+      }
+      return (
+         <div>
+            <h3>Total Clicks : {counter}</h3>
+            <button onClick = {onClick}>Click me!</button>
+         </div>
+      );
+   }
+
+   function App2() {
+      const [idx, setIdx] = React.useState();
+      const onSelect = (e) => {
+         setIdx(e.target.value);
+      }
+
+      return (
+         <div>
+            <h2>Converter</h2>
+            <select value={idx} onChange={onSelect}>
+               <option value="">Select your Unit</option>
+               <option value="0">Minutes & Hours</option>
+               <option value="1">Kilometers & Miles</option>
+            </select>
+            <hr />
+
+            {idx === "" ? "Select your Unit First" : null}
+            {idx === "0" ? <TimeConverter /> : null}
+            {idx === "1" ? <DistanceConverter /> : null}
+         </div>
+      );
+   }
+   function TimeConverter() {
+      const [amount, setAmount] = React.useState(0);
+      const [flipped, setFlipped] = React.useState(true);
+      const onChange = (e) => {
+         setAmount(e.target.value);
+      }
+      const reset = () => setAmount(0);
+      const onFlip = () => {
+         reset();
+         setFlipped((current) => !current);
+      }
+
+      return (
+         <div>
+            <h3>Time Converter</h3>
+            <div>
+               <label for="minutes">Minutes</label>
+               <input
+                  value={flipped ? amount : amount * 60}
+                  id="minutes"
+                  type="number"
+                  placeholder="Minutes"
+                  onChange={onChange}
+                  disabled={!flipped}
+               />
+               
+               <label for="hours">Hours</label>
+               <input
+                  value={flipped ? Math.round(amount / 60) : amount}
+                  id="hours"
+                  type="number"
+                  placeholder="Hours"
+                  onChange={onChange}
+                  disabled={flipped}
+               />
+            </div>
+
+            <button onClick={reset}>Reset</button>
+            <button onClick={onFlip}>{flipped ? "Hours to Minutes" : "Minutes to Hours"}</button>
+         </div>
+      );
+   }
+   function DistanceConverter() {
+      const [distance, setDistance] = React.useState(0);
+      const [flipped, setFlipped] = React.useState(true);
+      const onChange = (e) => {
+         setDistance(e.target.value);
+      }
+      const reset = () => setDistance(0);
+      const onFlip = () => {
+         reset();
+         setFlipped((current) => !current);
+      }
+
+      return(
+         <div>
+            <h3>Distance Converter</h3>
+            <div>
+               <label for="Kilometer">Kilometer</label>
+               <input
+                  value={flipped ? distance : distance * 1.609}
+                  id="Kilometer"
+                  type="number"
+                  placeholder="Kilometer"
+                  onChange={onChange}
+                  disabled={!flipped}
+               />
+               
+               <label for="Miles">Miles</label>
+               <input
+                  value={flipped ? (distance / 1.609).toFixed(3) : distance}
+                  id="Miles"
+                  type="number"
+                  placeholder="Miles"
+                  onChange={onChange}
+                  disabled={flipped}
+               />
+            </div>
+
+            <button onClick={reset}>Reset</button>
+            <button onClick={onFlip}>{flipped ? "Miles to Kilometer" : "Kilometer to Miles"}</button>
+         </div>
+      );
+   }
+   ReactDOM.render(<App1 />, div1); {/* 렌더링... */}
+   ReactDOM.render(<App2 />, div2);
+</script>
+</html>
