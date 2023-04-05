@@ -1,5 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class BAEKJOON_1541 {
     /*
@@ -18,12 +20,21 @@ public class BAEKJOON_1541 {
      */
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String s = new String(br.readLine());
-        char[] sArr = s.toCharArray();
+        String[] s = br.readLine().split("-");
+        int result = 0;
 
-        for(int i=0; i < sArr.length; i++) {
-            if(sArr[i] == '-')
-            System.out.println(sArr[i]);
+        for(int i=0; i < s.length; i++) {
+            int num = 0;
+            if(s[i].contains("+")) {
+                for(String pl : s[i].split("\\+")) {
+                    num += Integer.parseInt(pl);
+                }
+            }
+            else {
+                num = Integer.parseInt(s[i]);
+            }
+            result = (i == 0) ? num : result - num;
         }
+        System.out.println(result);
     }
 }
