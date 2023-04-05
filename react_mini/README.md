@@ -3,15 +3,18 @@
 > This is mini project for practice React.js...
 ## About
 It's kind of a project following nomadcoders's clone project for practice.
-### Goal
+### Goals
+```
 - [ ] Understanding *React.js Basic*
-   - [ ] State
+   - [o] State
    - [ ] Props
    - [ ] Effects
 - and More...
-
-
-## Configuration
+```
+##
+## 1. My Converter
+useState()로 만든 간단한 변환기.
+### Configuration
 - [Reactjs Production](https://ko.reactjs.org/docs/cdn-links.html)
 - [Babel Standalone](https://babeljs.io/setup/#installation)
 
@@ -23,3 +26,6 @@ It's kind of a project following nomadcoders's clone project for practice.
 <!-- code -->
 </script>
 ```
+## References
+- [벨로퍼트와 함께하는 모던 리액트](https://react.vlpt.us/)
+- [ReactJS로 영화 웹 서비스 만들기 for Beginners](https://github.com/nomadcoders/movie_app_2019)
