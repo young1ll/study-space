@@ -9,7 +9,7 @@ It's kind of a project following nomadcoders's clone project for practice.
    - [ ] Props
    - [ ] Effects
 - and More...
-: .notice--info
+
 
 ## Configuration
 - [Reactjs Production](https://ko.reactjs.org/docs/cdn-links.html)
