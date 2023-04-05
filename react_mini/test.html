@@ -2,22 +2,28 @@
 <html lang="en">
 <head></head>
 <body id="root"></body>
-<script src="https://unpkg.com/react@16.7.0/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 <script src="https://unpkg.com/@babel/standalone@7.21.4/babel.min.js"></script>
 <script type="text/babel">
    const root = document.getElementById('root')
-   const Title = () => (<h3 id="title" onMouseEnter={() => console.log("Mouse Enter")}>
-      Hello World!
-   </h3>);
-   const Btn = () => (<button style={{backgroundColor: "tomato"}} onClick={() => console.log("you clicked button!")}>
-      Click me!
-   </button>);
-   const Container = () => (
-   <div>
-      <Title /> {/* 첫 번째 문자는 반드시 대문자로*/}
-      <Btn />
-   </div>);
-   ReactDOM.render(<Container />, root);
+
+
+   function App() {
+      const [counter, setCounter] = React.useState(0);
+      //setCounter로 리렌더링
+      const onClick = () => {
+         //이벤트 안에 setCounter 배치
+         setCounter(counter + 1);
+      }
+      return (
+         <div>
+            <h3>Total Clicks : {counter}</h3>
+            <button onClick = {onClick}>Click me!</button>
+         </div>
+      );
+   }
+   
+   ReactDOM.render(<App />, root); {/* 렌더링... */}
 </script>
 </html>
