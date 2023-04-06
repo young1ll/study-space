@@ -1,5 +1,5 @@
 <p align="center">
- <h2 align="center">My Study-space</h2>
+ <h2 align="center">👽 My Study-space</h2>
  <p align="center">This Repository is My Study-space for Managing Knowledge about what I learned!</p>
 </p>
 
@@ -13,7 +13,7 @@
 ![badge](https://img.shields.io/badge/React-0088CC?style=flat-square&logo=React&logoColor=white)
 </div>
 
-## 👽 Algorithm Problems
+## Algorithm Problems
 
 <table align="center">
     <td align="center">Github</td>
