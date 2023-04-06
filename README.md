@@ -1,3 +1,18 @@
+<p align="center">
+ <h2 align="center">My Study-space</h2>
+ <p align="center">This Repository is My Study-space for Managing Knowledge about what I learned!</p>
+</p>
+
+<div align="center">
+
+[![Github](https://img.shields.io/badge/Code_Space-737373.svg?style=flat&logo=github&logoColor=white&label=Github&labelColor=000)](https://young1ll-special-umbrella-j6g9grpqwg7hqq64.github.dev/)
+
+![badge](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=OpenJDK&logoColor=fff)
+![badge](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=fff)
+![badge](https://img.shields.io/badge/3.8.8-gray?style=flat-square&logo=Python&logoColor=fff&label=Python&labelColor=276DC3)
+![badge](https://img.shields.io/badge/React-0088CC?style=flat-square&logo=React&logoColor=white)
+</div>
+
 ## 👽 Algorithm Problems
 
 <table align="center">
