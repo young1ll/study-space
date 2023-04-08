@@ -10,4 +10,4 @@
 - [**FreeCodeCamp**: Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python/)
 ---
 - [Python Libraries](./python_lib.md)
-- [Python Basic]()
+- [Python Basic](./python_basic.ipynb)
