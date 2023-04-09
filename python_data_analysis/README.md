@@ -4,13 +4,13 @@
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white)
 
 - **위키독스**
-    - [Data Science School]([https://datascienceschool.net/intro.html](https://datascienceschool.net/intro.html))
-    - [Python Data Preprocessing Practice]([https://wikidocs.net/book/4764](https://wikidocs.net/book/4764))
-    - [Jump to Python]([https://wikidocs.net/book/1](https://wikidocs.net/book/1))
-    - [Practical Python Programming]([https://wikidocs.net/book/4673](https://wikidocs.net/book/4673))
+    - [Data Science School](https://datascienceschool.net/intro.html)
+    - [Python Data Preprocessing Practice](https://wikidocs.net/book/4764)
+    - [Jump to Python](https://wikidocs.net/book/1)
+    - [Practical Python Programming](https://wikidocs.net/book/4673)
 - **웹사이트**
-    - [FreeCodeCamp : Data Analysis with Python]([https://www.freecodecamp.org/learn/data-analysis-with-python/](https://www.freecodecamp.org/learn/data-analysis-with-python/))
-    - [w3School : Python Tutorial]([https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/default.asp))
+    - [FreeCodeCamp : Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python/)
+    - [w3School : Python Tutorial](https://www.w3schools.com/python/default.asp)
 - **도서**
     - [Learning Python 5th Edition](https://www.oreilly.com/library/view/learning-python-5th/9781449355722/)
     - Python for Data Analysis 2nd Edition
