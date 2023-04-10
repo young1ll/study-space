@@ -36,18 +36,22 @@
 ```
 
 ---
+# Learning Python 5th Edition
 -  Python Types
-    1. [Python Core Data Types](./python_data_types.ipynb/#python_built-in_data_types)
+    1. [Python Core Data Types](./learning_python_data_types.ipynb/#python_built-in_data_types)
         1. Number
         2. String
         3. List
         4. Tuple
         5. Dictionary
-    2. [Python Other Core Date Types](./python_data_types.ipynb/#other_core_data_types)
+    2. [Python Other Core Date Types](./learning_python_data_types.ipynb/#other_core_data_types)
         1. Set
         2. Fixed Precision
         3. Fraction
-    3. The Dynamic Typing Interlude
+    3. [The Dynamic Typing Interlude](./python_dynamic_type_interlude.md)
+    4. String Fundamentals
+    5. [Lists and Dictionaries](./learning_python_lists_and_dictionaries.ipynb)
+    6. Tuples, Files, and Everything Else
 - Modules and Packages
 ---
 - [NumPy](./python_numpy.ipynb)
