@@ -16,26 +16,7 @@
     - Python for Data Analysis 2nd Edition
     - [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
 
-## Python Conceptual Hierachy
-파이썬 프로그램의 계층구조.
 
-```python
-# Python Conceptual Hierachy
-# ├── Program
-# │   ├── Module
-# │   │   ├── Statement
-# │   │   ├── Statement
-# │   │   │   └── Expression
-# │   │   │       ├── Object
-# │   │   │       ├── Object
-# │   │   │       └── Object
-# │   │   └── Statement
-# │   ├── Module
-# │   └── Module
-# ...
-```
-
----
 # Learning Python 5th Edition
 -  Python Types
     1. [Python Core Data Types](./learning_python_data_types.ipynb/#python_built-in_data_types)
@@ -48,11 +29,14 @@
         1. Set
         2. Fixed Precision
         3. Fraction
-    3. [The Dynamic Typing Interlude](./python_dynamic_type_interlude.md)
+    3. [**The Dynamic Typing Interlude**](./python_dynamic_type_interlude.md)
     4. String Fundamentals
     5. [Lists and Dictionaries](./learning_python_lists_and_dictionaries.ipynb)
     6. Tuples, Files, and Everything Else
+- [Statements and Syntax](./learning_python_statements_and_syntax.md)
+- Functions and Generators
 - Modules and Packages
+ - [**Classes and OOP**](./learning_python_classes_and_oop.md)
 ---
 - [NumPy](./python_numpy.ipynb)
 - SciPy
