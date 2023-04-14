@@ -1,4 +1,3 @@
-# Python for Data Analysis
 
 ![Python](https://img.shields.io/badge/Python-2.7~-3670A0?style=flat&logo=python&logoColor=ffdd54)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white)

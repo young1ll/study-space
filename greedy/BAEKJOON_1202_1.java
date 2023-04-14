@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class BAEKJOON_1202 {
+public class BAEKJOON_1202_1 {
    static class Item implements Comparable<Item> {
       int m, v;
    
@@ -9,22 +9,18 @@ public class BAEKJOON_1202 {
          this.m = m;
          this.v = v;
       }
-      public int CompareTo(Item o) {
-         return this.m - o.m;
+      @Override
+      public int compareTo(Item o) {
+         return o.v - this.v;
       }
-	@Override
-	public int compareTo(Item o) {
-		return 0;
-	}
    }
    
+   // 풀이 2
+   // 기본 정수형 오름차 순 정렬을 제공하는 Heap : PriorityQueue를 이용해 풀 수도 있다고 한다.
+   // 즉 이진탐색트리를 구현이라는 뜻.
+   // 풀이 1에서 map만 정렬하고 list는 pointer를 이용해 최적값을 선별한다.
+   //===========================================================
    public static void main(String[] args) throws IOException {
-      // 풀이 2
-      // 기본 정수형 오름차 순 정렬을 제공하는 Heap : PriorityQueue를 이용해 풀 수도 있다고 한다.
-      // 즉 이진탐색트리를 구현이라는 뜻.
-      // 풀이 1에서 map만 정렬하고 list는 pointer를 이용해 최적값을 선별한다.
-      //===========================================================
-      
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
       
       StringTokenizer st = new StringTokenizer(br.readLine());
@@ -55,9 +51,6 @@ public class BAEKJOON_1202 {
             result += pq.poll();
          }
       }
-      
       System.out.println(result);
    }
-
-
 }
