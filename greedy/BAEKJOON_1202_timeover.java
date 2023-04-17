@@ -44,7 +44,7 @@ public class BAEKJOON_1202_timeover {
 
       Map<Integer, Integer> map = new HashMap<Integer, Integer>();
       List<Integer> list = new ArrayList<>();
-      int result = 0;
+      long result = 0;
 
 
       for(int i=0; i < n; i++) {
