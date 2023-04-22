@@ -15,16 +15,20 @@
     - Python for Data Analysis 2nd Edition
     - [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
 
+<details>
+<summary>
 
-# Learning Python 5th Edition
+### Learning Python 5th Edition
+
+</summary>
 -  Python Types
-    1. [Python Core Data Types](./learning_python_data_types.ipynb/#python_built-in_data_types)
+    1. [Python Core Data Types](./learning_python_data_types.ipynb)
         1. Number
         2. String
         3. List
         4. Tuple
         5. Dictionary
-    2. [Python Other Core Date Types](./learning_python_data_types.ipynb/#other_core_data_types)
+    2. [Python Other Core Date Types](./learning_python_data_types.ipynb)
         1. Set
         2. Fixed Precision
         3. Fraction
@@ -36,11 +40,18 @@
 - Functions and Generators
 - Modules and Packages
  - [**Classes and OOP**](./learning_python_classes_and_oop.md)
+
+ </details>
 ---
-- [NumPy](./python_numpy.ipynb)
+
+# Python for Data Analysis
+- **[NumPy](./python_numpy.ipynb)**
 - SciPy
 - Matplotlib
 - Seaborn
 - Pandas
 - SymPy
 - Scikit-Learn
+---
+
+# 텐서플로 딥러닝 프로그래밍
