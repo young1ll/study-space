@@ -1,6 +1,8 @@
+A study space for Python and Python data analysis.
 
 ![Python](https://img.shields.io/badge/Python-2.7~-3670A0?style=flat&logo=python&logoColor=ffdd54)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-F37626.svg?style=flat&logo=Jupyter&logoColor=white)
+
 
 - **위키독스**
     - [Data Science School](https://datascienceschool.net/intro.html)
@@ -14,13 +16,13 @@
     - [Learning Python 5th Edition](https://www.oreilly.com/library/view/learning-python-5th/9781449355722/)
     - Python for Data Analysis 2nd Edition
     - [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
-
 <details>
 <summary>
 
 ### Learning Python 5th Edition
-
 </summary>
+<div markdown=1>
+
 -  Python Types
     1. [Python Core Data Types](./learning_python_data_types.ipynb)
         1. Number
@@ -41,10 +43,17 @@
 - Modules and Packages
  - [**Classes and OOP**](./learning_python_classes_and_oop.md)
 
+</div>
  </details>
----
 
-# Python for Data Analysis
+<details>
+<summary>
+
+### Python for Data Analysis
+</summary>
+
+<div markdown=1>
+
 - **[NumPy](./python_numpy.ipynb)**
 - SciPy
 - Matplotlib
@@ -52,6 +61,14 @@
 - Pandas
 - SymPy
 - Scikit-Learn
----
+</div>
+</details>
 
-# 텐서플로 딥러닝 프로그래밍
+<details>
+<summary>
+
+### 텐서플로 딥러닝 프로그래밍
+</summary>
+<div markdown=1>
+</div>
+</details>
